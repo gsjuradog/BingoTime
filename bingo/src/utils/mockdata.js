@@ -1,0 +1,43 @@
+export const items = [
+'Establish a daily routine',
+'Set goals that are realistic',
+'Do something creative',
+'Cook at home',
+'Limit junk food',
+'Get some sun',
+'Learn something new everyday',
+'Eat more fruits and vegetables',
+'Avoid processed food',
+'Limit screen time',
+'Mental break',
+'Stretch',
+'Listen to nature sounds',
+'Get adequate sleep',
+"Don't smoke",
+'Increase physical activity',
+'Take pride in your appearance',
+'Wash your hands regularly',
+'Use less salt',
+'Talk about your problems',
+'Meditate',
+'Drink more water',
+'Spend time with loved ones',
+'Avoid drinking soda',
+'Read',
+];
+
+export const posibilities = [
+  [12,0,1,2,3,4],
+  [12,5,6,7,8,9],
+  [12,10,11,13,14],
+  [12,15,16,17,18,19],
+  [12,20,21,22,23,24],
+  [12, 0, 6, 18, 24],
+  [12, 4, 8, 16, 20],
+  [12, 0, 5, 10, 15, 20],
+  [12, 1, 6, 11, 16, 21],
+  [12, 2, 7, 17, 22],
+  [12, 3, 8, 13, 18, 23],
+  [12, 4, 9, 14, 19, 24]
+]
+
