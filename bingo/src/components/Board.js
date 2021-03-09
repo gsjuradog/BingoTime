@@ -2,8 +2,7 @@ import React, {useState, useEffect} from 'react';
 import shuffle from "shuffle-array";
 import Square from './Square';
 import {intersection, isEqual} from 'lodash';
-import {useHistory} from 'react-router-dom'
-
+import {useHistory} from 'react-router-dom';
 
 
 export default function Board({items, winPosibilities}) {
@@ -47,7 +46,7 @@ export default function Board({items, winPosibilities}) {
     return setTimeout(() => {
         history.push('/ups')   
 
-    }, 2000);
+    }, 1500);
   }
   
  
@@ -87,7 +86,7 @@ export default function Board({items, winPosibilities}) {
   return (
     <>
       <h1>Healthy habits bingo</h1>
-      <h3>Do the tasks, see them desapear and be healthy</h3>
+      <h3>Do the tasks, see them disappear, and be healthy</h3>
       <main>
       {Object.keys(squares).map(id => (
         <Square 
